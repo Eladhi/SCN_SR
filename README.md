@@ -2,16 +2,18 @@
 
 This project is a final project in the course 236862 - Sparse and Redundant Representations and their Applications in Signal and Image Processing, of prof. Miki Elad (Technion).
 
-The project is my implementation, with some extras, to the following paper: "Robust Single Image Super-Resolution via DeepNetworks with Sparse Prior”, by Liu et al., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7466062.
+The project is my implementation, with some extras, of the following paper: "Robust Single Image Super-Resolution via Deep Networks with Sparse Prior”, by Liu et al., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7466062.
 
 ## Paper Authors Code
 
 The authors provided their code for forward pass only. It is used to compare the results.
+
 The code and trained models appears in the folder 'downloaded'.
 
 ## Datasets
 
 Training images should appear in: 'data/SR_training_datasets/<dataset_name>'
+
 Test images should appear in: 'data/SR_test_datasets/<dataset_name>'
 
 The dataset folder should contain 2 subfolder:
